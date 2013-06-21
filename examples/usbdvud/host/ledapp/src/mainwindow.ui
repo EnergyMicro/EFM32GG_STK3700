@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>128</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>331</width>
+    <height>128</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>331</width>
+    <height>128</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>EFM32 USB &quot;Vendor Unique Device&quot; project</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>EFM.ico</normaloff>EFM.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLed" name="qLed4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Led 4</string>
+    </property>
+    <property name="whatsThis">
+     <string>Led widget</string>
+    </property>
+    <property name="value">
+     <bool>false</bool>
+    </property>
+    <property name="onColor">
+     <enum>QLed::Orange</enum>
+    </property>
+    <property name="offColor">
+     <enum>QLed::Grey</enum>
+    </property>
+    <property name="shape">
+     <enum>QLed::Circle</enum>
+    </property>
+   </widget>
+   <widget class="QLed" name="qLed3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Led 3</string>
+    </property>
+    <property name="whatsThis">
+     <string>Led widget</string>
+    </property>
+    <property name="onColor">
+     <enum>QLed::Orange</enum>
+    </property>
+    <property name="offColor">
+     <enum>QLed::Grey</enum>
+    </property>
+    <property name="shape">
+     <enum>QLed::Circle</enum>
+    </property>
+   </widget>
+   <widget class="QLed" name="qLed2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Led 2</string>
+    </property>
+    <property name="whatsThis">
+     <string>Led widget</string>
+    </property>
+    <property name="value">
+     <bool>false</bool>
+    </property>
+    <property name="onColor">
+     <enum>QLed::Orange</enum>
+    </property>
+    <property name="offColor">
+     <enum>QLed::Grey</enum>
+    </property>
+    <property name="shape">
+     <enum>QLed::Circle</enum>
+    </property>
+   </widget>
+   <widget class="QLed" name="qLed1">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Led 1</string>
+    </property>
+    <property name="whatsThis">
+     <string>Led widget</string>
+    </property>
+    <property name="value">
+     <bool>false</bool>
+    </property>
+    <property name="onColor">
+     <enum>QLed::Orange</enum>
+    </property>
+    <property name="offColor">
+     <enum>QLed::Grey</enum>
+    </property>
+    <property name="shape">
+     <enum>QLed::Circle</enum>
+    </property>
+   </widget>
+   <widget class="QLed" name="qLed0">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Led 0</string>
+    </property>
+    <property name="whatsThis">
+     <string>Led widget</string>
+    </property>
+    <property name="value">
+     <bool>false</bool>
+    </property>
+    <property name="onColor">
+     <enum>QLed::Orange</enum>
+    </property>
+    <property name="offColor">
+     <enum>QLed::Grey</enum>
+    </property>
+    <property name="shape">
+     <enum>QLed::Circle</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Toggle Led 4</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>80</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Toggle Led 3</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Toggle Led 2</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton1">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Toggle Led 1</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton0">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Toggle Led 0</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QLed</class>
+   <extends>QWidget</extends>
+   <header>qled.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
